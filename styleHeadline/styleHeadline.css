@@ -319,9 +319,13 @@ footer {
     background: #cdcdcd;
     padding: 150px 50px;
     min-height:900px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
   }
   .content p {
     color: #111;
     font-size: 2em;
     margin-bottom: 50px;
   }
+
